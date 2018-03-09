@@ -1,0 +1,323 @@
+Hidden unit 32
+python train.py --train --model lstm --hidden_unit 32
+> hidden unit flag has set value 32
+> model flag has set value lstm
+> Now Training
+> Running for 30 iterations
+> Hidden size unit 32
+2018-03-07 04:18:25.859199: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Iteration 0, Cost: 136.257942746, Accuracy: 58.9999961853
+Iteration 1, Cost: 109.432292188, Accuracy: 75.0
+Iteration 2, Cost: 102.023282509, Accuracy: 58.9999961853
+Iteration 3, Cost: 100.68580843, Accuracy: 66.0
+Iteration 4, Cost: 97.252896684, Accuracy: 60.0000038147
+Iteration 5, Cost: 93.8264366786, Accuracy: 68.0
+Iteration 6, Cost: 94.844754982, Accuracy: 69.0
+Iteration 7, Cost: 93.2937071482, Accuracy: 71.0
+Iteration 8, Cost: 92.7490732956, Accuracy: 66.0
+Iteration 9, Cost: 95.6221419398, Accuracy: 75.0
+Iteration 10, Cost: 94.4781826655, Accuracy: 74.0
+Iteration 11, Cost: 94.1210137685, Accuracy: 68.0
+Iteration 12, Cost: 99.2984748459, Accuracy: 69.0
+Iteration 13, Cost: 95.8701046817, Accuracy: 73.0
+Iteration 14, Cost: 91.5712961896, Accuracy: 76.0
+Iteration 15, Cost: 88.9473617935, Accuracy: 78.0
+Iteration 16, Cost: 88.0366933823, Accuracy: 79.0
+Iteration 17, Cost: 85.3585521507, Accuracy: 69.0
+Iteration 18, Cost: 88.8283993975, Accuracy: 82.0
+Iteration 19, Cost: 91.9522014872, Accuracy: 73.0
+Iteration 20, Cost: 93.0437837474, Accuracy: 71.0
+Iteration 21, Cost: 89.8145798175, Accuracy: 67.0
+Iteration 22, Cost: 90.4527063179, Accuracy: 68.0
+Iteration 23, Cost: 89.0852553177, Accuracy: 70.0
+Iteration 24, Cost: 88.4484875615, Accuracy: 73.0
+Iteration 25, Cost: 87.812719504, Accuracy: 73.0
+Iteration 26, Cost: 88.7145598666, Accuracy: 70.0
+Iteration 27, Cost: 88.4002395503, Accuracy: 77.0
+Iteration 28, Cost: 87.6714086787, Accuracy: 70.0
+Iteration 29, Cost: 89.6684815216, Accuracy: 69.0
+Parameters have been trained and saved!
+Train Accuracy: 71.69833 Test Accuracy: 71.590004
+python train.py --train --model gru --hidden_unit 32
+> hidden unit flag has set value 32
+> model flag has set value gru
+> Now Training
+> Running for 30 iterations
+> Hidden size unit 32
+2018-03-07 04:26:12.813143: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Iteration 0, Cost: 151.133615685, Accuracy: 56.0
+Iteration 1, Cost: 116.771854846, Accuracy: 66.0
+Iteration 2, Cost: 108.240540339, Accuracy: 47.0
+Iteration 3, Cost: 103.743697408, Accuracy: 62.0
+Iteration 4, Cost: 96.0252085876, Accuracy: 56.0
+Iteration 5, Cost: 96.3862565486, Accuracy: 60.0000038147
+Iteration 6, Cost: 89.6796021907, Accuracy: 65.0
+Iteration 7, Cost: 94.252035834, Accuracy: 63.0
+Iteration 8, Cost: 88.8746272532, Accuracy: 64.0
+Iteration 9, Cost: 86.9664612198, Accuracy: 73.0
+Iteration 10, Cost: 87.2773087438, Accuracy: 67.0
+Iteration 11, Cost: 84.1909189669, Accuracy: 70.0
+Iteration 12, Cost: 82.6794055939, Accuracy: 75.0
+Iteration 13, Cost: 83.4360680962, Accuracy: 72.0
+Iteration 14, Cost: 85.6239279811, Accuracy: 77.0
+Iteration 15, Cost: 82.2787161382, Accuracy: 70.0
+Iteration 16, Cost: 84.3183266703, Accuracy: 76.0
+Iteration 17, Cost: 82.0644469961, Accuracy: 61.0
+Iteration 18, Cost: 80.9319992002, Accuracy: 78.0
+Iteration 19, Cost: 82.8601548258, Accuracy: 64.0
+Iteration 20, Cost: 83.9057732582, Accuracy: 77.0
+Iteration 21, Cost: 84.9029582659, Accuracy: 68.0
+Iteration 22, Cost: 82.1657179197, Accuracy: 62.0
+Iteration 23, Cost: 83.8752871831, Accuracy: 73.0
+Iteration 24, Cost: 81.3893534915, Accuracy: 73.0
+Iteration 25, Cost: 81.2745922407, Accuracy: 71.0
+Iteration 26, Cost: 80.8272801399, Accuracy: 67.0
+Iteration 27, Cost: 80.7801500765, Accuracy: 75.0
+Iteration 28, Cost: 78.4712954712, Accuracy: 66.0
+Iteration 29, Cost: 79.020091966, Accuracy: 72.0
+Parameters have been trained and saved!
+Train Accuracy: 71.19 Test Accuracy: 70.75
+
+
+Hidden unit 64
+python train.py --train --model lstm --hidden_unit 64
+> hidden unit flag has set value 64
+> model flag has set value lstm
+> Now Training
+> Running for 30 iterations
+> Hidden size unit 64
+2018-03-07 04:31:10.583138: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Iteration 0, Cost: 117.740695801, Accuracy: 71.0
+Iteration 1, Cost: 85.1346203486, Accuracy: 70.0
+Iteration 2, Cost: 82.2494975217, Accuracy: 65.0
+Iteration 3, Cost: 77.113329614, Accuracy: 69.0
+Iteration 4, Cost: 75.5381686719, Accuracy: 68.0
+Iteration 5, Cost: 71.1736890411, Accuracy: 74.0
+Iteration 6, Cost: 69.0223846753, Accuracy: 73.0
+Iteration 7, Cost: 70.1554436938, Accuracy: 76.0
+Iteration 8, Cost: 71.2127829615, Accuracy: 74.0
+Iteration 9, Cost: 68.5746344757, Accuracy: 80.0
+Iteration 10, Cost: 64.5980751928, Accuracy: 66.0
+Iteration 11, Cost: 69.4352722804, Accuracy: 80.0
+Iteration 12, Cost: 67.0418457476, Accuracy: 74.0
+Iteration 13, Cost: 66.3517103132, Accuracy: 81.0
+Iteration 14, Cost: 64.3551448377, Accuracy: 83.0
+Iteration 15, Cost: 64.730874265, Accuracy: 75.0
+Iteration 16, Cost: 62.6442407354, Accuracy: 79.0
+Iteration 17, Cost: 61.9141564369, Accuracy: 75.0
+Iteration 18, Cost: 59.2108945878, Accuracy: 88.0
+Iteration 19, Cost: 61.426150856, Accuracy: 79.0
+Iteration 20, Cost: 61.0894211515, Accuracy: 80.0
+Iteration 21, Cost: 59.2264146233, Accuracy: 81.0
+Iteration 22, Cost: 57.6348696327, Accuracy: 76.0
+Iteration 23, Cost: 58.7192356491, Accuracy: 83.0
+Iteration 24, Cost: 58.8065546799, Accuracy: 85.0
+Iteration 25, Cost: 58.8933472379, Accuracy: 81.0
+Iteration 26, Cost: 59.360217514, Accuracy: 75.0
+Iteration 27, Cost: 57.7340392431, Accuracy: 81.0
+Iteration 28, Cost: 57.2190239588, Accuracy: 73.0
+Iteration 29, Cost: 57.831410141, Accuracy: 79.0
+Parameters have been trained and saved!
+Train Accuracy: 79.083336 Test Accuracy: 78.26
+python train.py --train --model gru --hidden_unit 64
+> hidden unit flag has set value 64
+> model flag has set value gru
+> Now Training
+> Running for 30 iterations
+> Hidden size unit 64
+2018-03-07 04:43:18.417205: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Iteration 0, Cost: 127.947372716, Accuracy: 60.0000038147
+Iteration 1, Cost: 101.035714378, Accuracy: 69.0
+Iteration 2, Cost: 100.113558858, Accuracy: 55.0
+Iteration 3, Cost: 97.8355672264, Accuracy: 67.0
+Iteration 4, Cost: 90.1768162982, Accuracy: 58.0
+Iteration 5, Cost: 87.3928466733, Accuracy: 63.0
+Iteration 6, Cost: 84.1767780113, Accuracy: 68.0
+Iteration 7, Cost: 82.9582844734, Accuracy: 71.0
+Iteration 8, Cost: 83.0703017489, Accuracy: 67.0
+Iteration 9, Cost: 82.3301666705, Accuracy: 75.0
+Iteration 10, Cost: 81.8549648921, Accuracy: 58.9999961853
+Iteration 11, Cost: 79.6334401512, Accuracy: 77.0
+Iteration 12, Cost: 76.4775698598, Accuracy: 73.0
+Iteration 13, Cost: 77.4319799042, Accuracy: 82.0
+Iteration 14, Cost: 74.7967776553, Accuracy: 80.0
+Iteration 15, Cost: 74.5830053647, Accuracy: 72.0
+Iteration 16, Cost: 73.9301947657, Accuracy: 79.0
+Iteration 17, Cost: 73.3478030713, Accuracy: 70.0
+Iteration 18, Cost: 73.104504687, Accuracy: 82.0
+Iteration 19, Cost: 74.1780658913, Accuracy: 76.0
+Iteration 20, Cost: 73.3347042211, Accuracy: 79.0
+Iteration 21, Cost: 74.023960584, Accuracy: 76.0
+Iteration 22, Cost: 72.2855258179, Accuracy: 67.0
+Iteration 23, Cost: 72.3503431002, Accuracy: 74.0
+Iteration 24, Cost: 73.4462329737, Accuracy: 75.0
+Iteration 25, Cost: 70.7678034274, Accuracy: 76.0
+Iteration 26, Cost: 71.4043771871, Accuracy: 71.0
+Iteration 27, Cost: 69.18253184, Accuracy: 79.0
+Iteration 28, Cost: 70.3170233027, Accuracy: 69.0
+Iteration 29, Cost: 69.9245939509, Accuracy: 78.0
+Parameters have been trained and saved!
+Train Accuracy: 74.598335 Test Accuracy: 73.76
+
+
+Hidden unit 128
+python train.py --train --model lstm --hidden_unit 128
+> hidden unit flag has set value 128
+> model flag has set value lstm
+> Now Training
+> Running for 30 iterations
+> Hidden size unit 128
+2018-03-07 04:50:12.641912: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Iteration 0, Cost: 128.736242409, Accuracy: 73.0
+Iteration 1, Cost: 78.5737155533, Accuracy: 73.0
+Iteration 2, Cost: 71.1725502777, Accuracy: 66.0
+Iteration 3, Cost: 70.4807055155, Accuracy: 63.0
+Iteration 4, Cost: 69.304039046, Accuracy: 64.0
+Iteration 5, Cost: 64.8701002566, Accuracy: 74.0
+Iteration 6, Cost: 66.1226485825, Accuracy: 77.0
+Iteration 7, Cost: 64.2531794484, Accuracy: 77.0
+Iteration 8, Cost: 63.6821192614, Accuracy: 77.0
+Iteration 9, Cost: 63.8046098137, Accuracy: 79.0
+Iteration 10, Cost: 61.2640639432, Accuracy: 72.0
+Iteration 11, Cost: 59.9491079903, Accuracy: 83.0
+Iteration 12, Cost: 58.2111366463, Accuracy: 81.0
+Iteration 13, Cost: 61.1691070684, Accuracy: 83.0
+Iteration 14, Cost: 60.906017278, Accuracy: 83.0
+Iteration 15, Cost: 60.2186835035, Accuracy: 81.0
+Iteration 16, Cost: 59.8361445268, Accuracy: 82.0
+Iteration 17, Cost: 59.3105142911, Accuracy: 72.0
+Iteration 18, Cost: 60.0789967346, Accuracy: 86.0
+Iteration 19, Cost: 60.4023947334, Accuracy: 74.0
+Iteration 20, Cost: 58.7909674231, Accuracy: 82.0
+Iteration 21, Cost: 58.362081159, Accuracy: 77.0
+Iteration 22, Cost: 56.1334668509, Accuracy: 79.0
+Iteration 23, Cost: 56.8120950127, Accuracy: 79.0
+Iteration 24, Cost: 57.1450107479, Accuracy: 81.0
+Iteration 25, Cost: 56.3349437809, Accuracy: 84.0
+Iteration 26, Cost: 56.1083771197, Accuracy: 76.0
+Iteration 27, Cost: 56.1410397466, Accuracy: 86.0
+Iteration 28, Cost: 54.6636860085, Accuracy: 75.0
+Iteration 29, Cost: 54.8098858293, Accuracy: 79.0
+Parameters have been trained and saved!
+Train Accuracy: 80.42167 Test Accuracy: 79.149994
+python train.py --train --model gru --hidden_unit 128
+> hidden unit flag has set value 128
+> model flag has set value gru
+> Now Training
+> Running for 30 iterations
+> Hidden size unit 128
+2018-03-07 05:17:19.016317: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Iteration 0, Cost: 195.059058355, Accuracy: 39.0
+Iteration 1, Cost: 165.401432851, Accuracy: 48.0
+Iteration 2, Cost: 160.271953125, Accuracy: 41.0
+Iteration 3, Cost: 158.866424408, Accuracy: 47.0
+Iteration 4, Cost: 157.052555135, Accuracy: 36.0
+Iteration 5, Cost: 155.118940277, Accuracy: 39.0
+Iteration 6, Cost: 156.317362582, Accuracy: 41.0
+Iteration 7, Cost: 156.538821538, Accuracy: 43.0
+Iteration 8, Cost: 156.216577479, Accuracy: 38.0
+Iteration 9, Cost: 155.227164688, Accuracy: 43.0
+Iteration 10, Cost: 154.205094185, Accuracy: 46.0
+Iteration 11, Cost: 154.371602275, Accuracy: 52.0
+Iteration 12, Cost: 153.621873233, Accuracy: 47.0
+Iteration 13, Cost: 153.436496925, Accuracy: 50.0
+Iteration 14, Cost: 154.046599719, Accuracy: 44.0
+Iteration 15, Cost: 154.612177505, Accuracy: 41.0
+Iteration 16, Cost: 154.433969968, Accuracy: 48.0
+Iteration 17, Cost: 153.682689412, Accuracy: 42.0
+Iteration 18, Cost: 152.760715917, Accuracy: 45.0
+Iteration 19, Cost: 152.525483411, Accuracy: 41.0
+Iteration 20, Cost: 152.623544032, Accuracy: 46.0
+Iteration 21, Cost: 152.833344103, Accuracy: 45.0
+Iteration 22, Cost: 152.407592341, Accuracy: 46.0
+Iteration 23, Cost: 151.725124016, Accuracy: 46.0
+Iteration 24, Cost: 151.749720434, Accuracy: 46.0
+Iteration 25, Cost: 150.801594327, Accuracy: 52.0
+Iteration 26, Cost: 150.136119181, Accuracy: 45.0
+Iteration 27, Cost: 150.08294131, Accuracy: 45.0
+Iteration 28, Cost: 150.023852908, Accuracy: 49.0
+Iteration 29, Cost: 150.278244705, Accuracy: 38.0
+Parameters have been trained and saved!
+Train Accuracy: 45.818336 Test Accuracy: 45.829998
+
+
+Hidden unit 256
+python train.py --train --model lstm --hidden_unit 256
+> hidden unit flag has set value 256
+> model flag has set value lstm
+> Now Training
+> Running for 30 iterations
+> Hidden size unit 256
+2018-03-07 05:30:38.532283: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Iteration 0, Cost: 183.152128067, Accuracy: 45.0
+Iteration 1, Cost: 138.807456983, Accuracy: 57.0
+Iteration 2, Cost: 93.0630253855, Accuracy: 65.0
+Iteration 3, Cost: 81.6603451856, Accuracy: 73.0
+Iteration 4, Cost: 67.9361709213, Accuracy: 71.0
+Iteration 5, Cost: 69.503913695, Accuracy: 76.0
+Iteration 6, Cost: 65.8925726382, Accuracy: 76.0
+Iteration 7, Cost: 64.9987798754, Accuracy: 76.0
+Iteration 8, Cost: 59.8901741028, Accuracy: 74.0
+Iteration 9, Cost: 60.9625895119, Accuracy: 84.0
+Iteration 10, Cost: 60.6587723605, Accuracy: 76.0
+Iteration 11, Cost: 59.3510512479, Accuracy: 83.0
+Iteration 12, Cost: 57.2701328723, Accuracy: 77.0
+Iteration 13, Cost: 60.5733276494, Accuracy: 83.0
+Iteration 14, Cost: 60.5317438571, Accuracy: 91.0
+Iteration 15, Cost: 60.3899383481, Accuracy: 79.0
+Iteration 16, Cost: 59.8229409281, Accuracy: 82.0
+Iteration 17, Cost: 61.2552693113, Accuracy: 80.0
+Iteration 18, Cost: 58.5624025949, Accuracy: 85.0
+Iteration 19, Cost: 61.113895607, Accuracy: 75.0
+Iteration 20, Cost: 59.5376895618, Accuracy: 82.0
+Iteration 21, Cost: 61.4317196973, Accuracy: 73.0
+Iteration 22, Cost: 62.3302223269, Accuracy: 79.0
+Iteration 23, Cost: 61.2165276305, Accuracy: 78.0
+Iteration 24, Cost: 60.9776966349, Accuracy: 76.0
+Iteration 25, Cost: 61.6488205274, Accuracy: 71.0
+Iteration 26, Cost: 60.3330327352, Accuracy: 69.0
+Iteration 27, Cost: 59.4011851152, Accuracy: 77.0
+Iteration 28, Cost: 58.8730163129, Accuracy: 74.0
+Iteration 29, Cost: 60.2684996732, Accuracy: 78.0
+Parameters have been trained and saved!
+Train Accuracy: 79.34 Test Accuracy: 77.69
+python train.py --train --model gru --hidden_unit 256
+> hidden unit flag has set value 256
+> model flag has set value gru
+> Now Training
+> Running for 30 iterations
+> Hidden size unit 256
+2018-03-07 06:41:23.430672: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Iteration 0, Cost: 230.258881658, Accuracy: 9.0
+Iteration 1, Cost: 230.258532461, Accuracy: 12.0
+Iteration 2, Cost: 230.258532028, Accuracy: 11.0
+Iteration 3, Cost: 230.258532283, Accuracy: 8.0
+Iteration 4, Cost: 230.258531443, Accuracy: 7.0
+Iteration 5, Cost: 230.258531952, Accuracy: 6.0
+Iteration 6, Cost: 230.258531977, Accuracy: 9.0
+Iteration 7, Cost: 230.258531698, Accuracy: 12.0
+Iteration 8, Cost: 230.258532003, Accuracy: 13.0
+Iteration 9, Cost: 230.258532435, Accuracy: 7.0
+Iteration 10, Cost: 230.258532181, Accuracy: 10.0
+Iteration 11, Cost: 230.258532054, Accuracy: 10.0
+Iteration 12, Cost: 230.258532104, Accuracy: 9.0
+Iteration 13, Cost: 230.258531723, Accuracy: 13.0
+Iteration 14, Cost: 230.258532181, Accuracy: 5.0
+Iteration 15, Cost: 230.258531748, Accuracy: 6.0
+Iteration 16, Cost: 230.258531774, Accuracy: 10.0
+Iteration 17, Cost: 230.258531113, Accuracy: 14.0
+Iteration 18, Cost: 230.258531189, Accuracy: 17.0
+Iteration 19, Cost: 230.258532003, Accuracy: 6.0
+Iteration 20, Cost: 230.258531621, Accuracy: 11.0
+Iteration 21, Cost: 230.258530935, Accuracy: 10.0
+Iteration 22, Cost: 230.258532206, Accuracy: 14.0
+Iteration 23, Cost: 230.258532003, Accuracy: 12.0
+Iteration 24, Cost: 230.258532944, Accuracy: 16.0
+Iteration 25, Cost: 230.258532206, Accuracy: 10.0
+Iteration 26, Cost: 230.258531901, Accuracy: 8.0
+Iteration 27, Cost: 230.258531698, Accuracy: 9.0
+Iteration 28, Cost: 230.258531698, Accuracy: 12.0
+Iteration 29, Cost: 230.258532232, Accuracy: 6.0
+Parameters have been trained and saved!
+Train Accuracy: 10.0 Test Accuracy: 10.0
+
